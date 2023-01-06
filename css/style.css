@@ -1,0 +1,75 @@
+:root {
+--color-primary: #006599;
+--color-secunday:#00a79c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+}
+
+body {
+    background:var(--color-primary);
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.profile {
+    width: 100px;
+    border-radius: 50%;
+    border: 1   px solid white;
+    box-shadow: 0 0 15px white;
+    margin-bottom: 10px 0;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+}
+h1 {
+    font-weight: normal;
+    margin: 14px 0;
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    color: var(--color-secunday);
+        margin: 14px 0;
+}
+
+.link-list {
+    text-align: center;
+}
+.link-list li a {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 20px 100px;
+    border-radius: 10px;
+    color: var(--color-primary);
+    list-style: none;
+    text-decoration: none;
+}
+
+@media(min-width:300px){
+    .deputada {
+        margin: 10px 30px;
+    }
+}
+
+@media(min-width:300px) {
+    p {
+        left:10px
+    }
+}
+
+
+
